@@ -8,7 +8,7 @@ const socketInit = () => {
         transports: ['websocket'],
     };
 
-    return io('http://localhost:5500', options);
+    return io('https://codersroom.herokuapp.com', options);
 };
 
 export default socketInit;
